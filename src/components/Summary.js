@@ -7,11 +7,11 @@ const Summary = (props) => {
   }
   return (
     <div className="summary">
-      <h2 className="py-5">Order Summary</h2>
+      <h2 className="py-3">Order Summary</h2>
       <h5>Product Details</h5>
-      <input type="text" value={props.quantity} onChange={handleChange} onChange={handleChange}/>
-      <h5 className="pt-4">Shipping Address</h5>
-      <h2>{props.address}</h2>
+      <p>Product Name: {props.name}</p>
+      <input type="text" value={props.quantity} onChange={handleChange} onChange={handleChange} placeholder="Selected Qty"/>
+      <p className="pt-4">Shipping Address: {props.address}</p>
     </div>
   )
 }

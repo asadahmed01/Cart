@@ -5,11 +5,14 @@ const Product = (props) => {
 
     const handleChange = (e) =>{
     props.qtyChange(e.target.value)
+  };
+  const nameChange =(e)=>{
+    props.nmeChange(e.target.value)
   }
   return (
     <div className="product">
       <h3>Product Quantity</h3>
-      <select>
+      <select value={props.name} onChange={nameChange}>
         <option value="Shirt">Shirt</option>
         <option value="pants">Pants</option>
       </select>

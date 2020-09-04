@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.product{
+  padding: 0 20px 100px 0;
+}
+
+.order{
+  text-align: center;
+  padding: 50px;
+}
+.cart{
+  font-size: 50px;
+  color: #f48c06;
+}
+input:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+select{
+  width: 200px;
+  height: 30px;
+  margin: 0 20px;
+  border: 0;
+  border-bottom: 1px solid #f48c06;
+}
+.qty {
+  width: 50px;
+  border: 0;
+  height: 30px;
+  border-bottom: 1px solid #f48c06;
+}
+.address input{
+  border: 0;
+  border-bottom: 1px solid #f48c06;
+}
+
+.summary{
+  margin-top: 50px;
+}
+.summary input{
+  border: 0;
+  border-bottom: 1px solid #f48c06;
+}
+.btn-outline-success{
+  border: 1px solid #f48c06;
+  color: #f48c06;
+}
